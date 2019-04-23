@@ -4,7 +4,7 @@ from shaptools import hana
 
 h = hana.HanaInstance('prd', '00', 'YourPassword1234')
 
-params=[['system_replication', 'preload_column_tables', 'true'], ['memorymanager', 'global_allocation_limit', '25000']]
+params=[['system_replication', 'preload_column_tables', 'true'], ['memorymanager', 'global_allocation_limit', '28000']]
 database = 'SYSTEMDB'
 file_name= 'global.ini'
 layer = 'SYSTEM'
